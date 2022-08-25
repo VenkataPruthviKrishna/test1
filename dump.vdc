@@ -1,0 +1,530 @@
+$date
+	Thu Aug 25 08:38:46 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module above_test $end
+$var wire 1 ! clrP $end
+$var wire 1 " decB $end
+$var wire 1 # done $end
+$var wire 1 $ eqz $end
+$var wire 1 % ldA $end
+$var wire 1 & ldB $end
+$var wire 1 ' ldP $end
+$var reg 1 ( clk $end
+$var reg 16 ) data_in [15:0] $end
+$var reg 1 * start $end
+$scope module DP $end
+$var wire 16 + A_out [15:0] $end
+$var wire 16 , B_out [15:0] $end
+$var wire 16 - P_out [15:0] $end
+$var wire 1 . clk $end
+$var wire 1 ! clrP $end
+$var wire 16 / data_in [15:0] $end
+$var wire 1 " decB $end
+$var wire 1 $ eqz $end
+$var wire 1 % ldA $end
+$var wire 1 & ldB $end
+$var wire 1 ' ldP $end
+$var wire 16 0 z [15:0] $end
+$scope module g1 $end
+$var wire 1 . clk $end
+$var wire 16 1 data [15:0] $end
+$var wire 1 % load $end
+$var reg 16 2 dout [15:0] $end
+$upscope $end
+$scope module g2 $end
+$var wire 1 . clk $end
+$var wire 1 ! clr $end
+$var wire 16 3 data [15:0] $end
+$var wire 1 ' load $end
+$var reg 16 4 dout [15:0] $end
+$upscope $end
+$scope module g3 $end
+$var wire 1 . clk $end
+$var wire 16 5 data [15:0] $end
+$var wire 1 " dec $end
+$var wire 1 & load $end
+$var reg 16 6 c_out [15:0] $end
+$upscope $end
+$scope module g4 $end
+$var wire 16 7 in1 [15:0] $end
+$var wire 16 8 in2 [15:0] $end
+$var reg 16 9 a_out [15:0] $end
+$upscope $end
+$scope module g5 $end
+$var wire 1 $ c_out $end
+$var wire 16 : in [15:0] $end
+$upscope $end
+$upscope $end
+$scope module CON $end
+$var wire 1 . clk $end
+$var wire 1 $ eqz $end
+$var wire 1 ; start $end
+$var reg 1 < clrP $end
+$var reg 1 = decB $end
+$var reg 1 > done $end
+$var reg 1 ? ldA $end
+$var reg 1 @ ldB $end
+$var reg 1 A ldP $end
+$var reg 3 B state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx B
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+0.
+bx -
+bx ,
+bx +
+x*
+bx )
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#3
+1*
+1;
+#5
+b0 B
+1(
+1.
+#6
+0=
+0"
+0<
+0!
+0A
+0'
+0@
+0&
+0?
+0%
+#10
+0(
+0.
+#15
+b1 B
+1(
+1.
+#16
+1?
+1%
+#17
+b10001 )
+b10001 /
+b10001 1
+b10001 5
+#20
+0(
+0.
+#25
+b10001 2
+b10001 +
+b10001 7
+b10 B
+1(
+1.
+#26
+1<
+1!
+1@
+1&
+0?
+0%
+#27
+b101 )
+b101 /
+b101 1
+b101 5
+#30
+0(
+0.
+#35
+b10001 9
+b10001 0
+b10001 3
+b11 B
+b101 6
+0$
+b101 ,
+b101 :
+b0 4
+b0 -
+b0 8
+1(
+1.
+#36
+1=
+1"
+0<
+0!
+1A
+1'
+0@
+0&
+#40
+0(
+0.
+#45
+b100010 9
+b100010 0
+b100010 3
+b10001 4
+b10001 -
+b10001 8
+b100 6
+b100 ,
+b100 :
+1(
+1.
+#50
+0(
+0.
+#55
+b110011 9
+b110011 0
+b110011 3
+b11 6
+b11 ,
+b11 :
+b100010 4
+b100010 -
+b100010 8
+1(
+1.
+#60
+0(
+0.
+#65
+b1000100 9
+b1000100 0
+b1000100 3
+b110011 4
+b110011 -
+b110011 8
+b10 6
+b10 ,
+b10 :
+1(
+1.
+#70
+0(
+0.
+#75
+b1010101 9
+b1010101 0
+b1010101 3
+b1 6
+b1 ,
+b1 :
+b1000100 4
+b1000100 -
+b1000100 8
+1(
+1.
+#80
+0(
+0.
+#85
+b1100110 9
+b1100110 0
+b1100110 3
+b1010101 4
+b1010101 -
+b1010101 8
+b0 6
+1$
+b0 ,
+b0 :
+1(
+1.
+#87
+b100 B
+#88
+1>
+1#
+0=
+0"
+0A
+0'
+#90
+0(
+0.
+#95
+1(
+1.
+#100
+0(
+0.
+#105
+1(
+1.
+#110
+0(
+0.
+#115
+1(
+1.
+#120
+0(
+0.
+#125
+1(
+1.
+#130
+0(
+0.
+#135
+1(
+1.
+#140
+0(
+0.
+#145
+1(
+1.
+#150
+0(
+0.
+#155
+1(
+1.
+#160
+0(
+0.
+#165
+1(
+1.
+#170
+0(
+0.
+#175
+1(
+1.
+#180
+0(
+0.
+#185
+1(
+1.
+#190
+0(
+0.
+#195
+1(
+1.
+#200
+0(
+0.
+#205
+1(
+1.
+#210
+0(
+0.
+#215
+1(
+1.
+#220
+0(
+0.
+#225
+1(
+1.
+#230
+0(
+0.
+#235
+1(
+1.
+#240
+0(
+0.
+#245
+1(
+1.
+#250
+0(
+0.
+#255
+1(
+1.
+#260
+0(
+0.
+#265
+1(
+1.
+#270
+0(
+0.
+#275
+1(
+1.
+#280
+0(
+0.
+#285
+1(
+1.
+#290
+0(
+0.
+#295
+1(
+1.
+#300
+0(
+0.
+#305
+1(
+1.
+#310
+0(
+0.
+#315
+1(
+1.
+#320
+0(
+0.
+#325
+1(
+1.
+#330
+0(
+0.
+#335
+1(
+1.
+#340
+0(
+0.
+#345
+1(
+1.
+#350
+0(
+0.
+#355
+1(
+1.
+#360
+0(
+0.
+#365
+1(
+1.
+#370
+0(
+0.
+#375
+1(
+1.
+#380
+0(
+0.
+#385
+1(
+1.
+#390
+0(
+0.
+#395
+1(
+1.
+#400
+0(
+0.
+#405
+1(
+1.
+#410
+0(
+0.
+#415
+1(
+1.
+#420
+0(
+0.
+#425
+1(
+1.
+#430
+0(
+0.
+#435
+1(
+1.
+#440
+0(
+0.
+#445
+1(
+1.
+#450
+0(
+0.
+#455
+1(
+1.
+#460
+0(
+0.
+#465
+1(
+1.
+#470
+0(
+0.
+#475
+1(
+1.
+#480
+0(
+0.
+#485
+1(
+1.
+#490
+0(
+0.
+#495
+1(
+1.
+#500
+0(
+0.
+#503
